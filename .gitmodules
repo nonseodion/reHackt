@@ -5,3 +5,6 @@
 [submodule "lib/cover-token-mining"]
 	path = lib/cover-token-mining
 	url = https://github.com/CoverProtocol/cover-token-mining
+[submodule "lib/euler-contracts"]
+	path = lib/euler-contracts
+	url = https://github.com/euler-xyz/euler-contracts
