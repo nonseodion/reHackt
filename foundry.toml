@@ -3,7 +3,9 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
-[rpc_endpoints]
-mainnet = 'https://eth.llamarpc.com'
 
-# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[etherscan]
+ethereum = { key = "${ETHERSCAN_API_KEY}", url = "https://api.etherscan.io/v2/api?chainId=1", chainId = 1}
+mainnet = { key = "${ETHERSCAN_API_KEY}", url = "https://api.etherscan.io/v2/api?chainId=1", chainId = 1}
